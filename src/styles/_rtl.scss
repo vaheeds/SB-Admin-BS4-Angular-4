@@ -14,8 +14,12 @@
         direction: rtl;
     }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     .rtl {
+        .push-md-4 {
+                right: 33.33333333%;
+                left: auto;
+                }
         .navbar-brand {
             direction: ltr;
         }
@@ -31,5 +35,6 @@
                 right: 0 !important;
             }
         }
+        
     }
 }
